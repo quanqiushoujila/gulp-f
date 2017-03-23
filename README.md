@@ -1,0 +1,10 @@
+gulp-concat 合并
+gulp-sass sass预编译
+gulp-uglify js一个或者多个压缩
+gulp-cssnano css压缩
+gulp-htmlmin html压缩
+gulp-imagesmin 图片压缩
+gulp-autoprefixer 补全前缀
+gulp-changed 只操作有过修改的文件
+imagemin-pngquant 深度压缩
+gulp-plumber 捕获处理任务中的错误

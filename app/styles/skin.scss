@@ -1,0 +1,41 @@
+$pink:#f1362f;
+// 头部按钮皮肤
+.btn-doc {
+  border: 1px solid #f1362f;
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn-default {
+  &:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+  }
+}
+
+// 首页侧边按钮皮肤
+.btn-download {
+  background-color: #f4645f;
+  border: 1px solid #f4645f;
+  color: #fff;
+}
+
+.tag-box .btn-default {
+  background-color: transparent;
+  &:hover {
+    background-color: #f4645f;
+    border-color: #f4645f;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+  }
+}

@@ -1,0 +1,118 @@
+$pink:#f1362f;
+
+
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #f1362f;
+	text-decoration: none;
+}
+.bd0{border:0;}
+/* 头部 */
+.header{
+	padding: 40px 0;
+	background: url(../images/header-bg.jpg);
+	h1{
+		font-size: 42px;
+	}
+	.doc-box{
+		margin-top: 20px;
+	}
+}
+/* 导航 */
+.nav{
+	.menu{
+		text-align: center;
+		background-color: #fff;
+	}
+	li{
+		display: inline-block;
+
+		a{
+			display: block;
+			padding: 0 20px;
+			line-height: 4em;
+			color: #333;
+
+			&:hover{
+				color: #f1362f;
+			}
+		}
+	}
+	li.current a{
+		border-bottom: 2px solid #f1362f;
+	}
+
+}
+/* 页码 */
+.pagination{
+	text-align: center;
+	display: block;
+	.paga-number{
+		display: inline-block;
+		margin: 0 3px;
+		padding: 0 14px;
+		border-radius: 4px;
+		line-height: 34px;
+		background-color:#f4645f;
+		color: #fff;
+	}
+	.next{
+		display: inline-block;
+		color: #fff;
+		background-color: #f4645f;
+		&:hover{
+			background-color: #f4645f;
+		}
+	}
+}
+
+/* 返回顶部按钮 */
+.btn-return-top{
+	display: none;
+	position: fixed;
+	right: 10px;
+	bottom: 120px;
+	color: #fff;
+	background-color: rgba(244, 100, 95, 0.6);
+	&:hover{
+		color: #fff;
+		background-color: $pink;
+		transition: all .2s ease-in-out;
+	}
+}
+
+/* 尾部 */
+.footer{
+	background-color: #202020;
+	.widget{
+		background-color: #202020;
+		color:#fff;
+		span{
+			margin-bottom:-1px;
+			font-size:20px;
+		}
+	}
+}
+
+
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+	.header{
+		.btn-doc{
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+	.nav{
+		display: none;
+	}
+}

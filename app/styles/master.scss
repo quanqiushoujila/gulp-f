@@ -1,0 +1,36 @@
+$pink:#f1362f;
+
+/* 首页中间主体部分 */
+
+.content-wrap {
+  padding: 40px 0;
+  background-color: #ebebeb;
+}
+
+
+/* 首页侧栏样式 */
+
+.community {
+  p {
+    margin-bottom: 10px;
+  }
+  a {
+    color: $pink;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.tag-cloud {
+  .tag-box {
+    a {
+      display: inline-block;
+      padding: 5px 15px;
+      margin: 0 10px 10px 0;
+      border: 1px solid #d7d7d7;
+      border-radius: 4px;
+      color: #aaa;
+    }
+  }
+}
